@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: red;
+}
+
+.container {
+    background-color: purple;
+    color: #fff;
+    font-family: 'DM sans';
+    font-weight: 900;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container #options-menu {
+    background-color: green;
+    display: flex;
+    gap: 40px;
+}
+
+.container #options-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container #logo {
+    background-color: green;
+}
